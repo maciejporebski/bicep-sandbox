@@ -59,5 +59,5 @@ To deploy the template locally or in pipeline there are two main options:
 - install the bicep CLI and deploy using Azure PowerShell (`New-AzResourceGroupDeployment`) or Azure CLI (`az deployment group create`)
 
 ```bash
-az deployment group create -f ./src/demo.bicep -g bicepdemo-rgp-sb
+az deployment group create -f ./src/demo.bicep -g bicepdemo
 ```
