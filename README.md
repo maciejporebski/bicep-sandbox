@@ -50,7 +50,7 @@ Install the bicep CLI and Build using `bicep build <file>`
     bicep --help
   displayName: 'Install Bicep CLI'
 - script: |
-    bicep build src/external/waf-policies/global.bicep
+    bicep build src/demo.bicep
 ```
 
 ## Deploying
